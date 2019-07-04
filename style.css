@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.game {
+  height: 100vh;
+  background-color: blue;
+}
+
+.game h1 {
+  color: #e0dada;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  font-size: 50px;
+}
+
+.choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+}
+
+.choice img {
+  cursor: pointer;
+}
+
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35vh;
+  color: #e0dada;
+}
+
+.result .resultPlayer {
+  text-align: center;
+}
+
+.result .resultPlayer h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.result .resultPlayer p {
+  font-size: 20px;
+}
+
+.result .resultComputer {
+  text-align: center;
+}
+
+.result .resultComputer h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.result .resultComputer p {
+  font-size: 20px;
+}
+
+#resultWin {
+  text-align: center;
+  font-size: 45px;
+  color: #e0dada;
+}
+/*# sourceMappingURL=style.css.map */
